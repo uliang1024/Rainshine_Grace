@@ -6,7 +6,7 @@ SECRET_KEY = 'django-insecure-96%)(&5ba@nkzc6%d5v&-ps8x5lam+00((7wjj%h-f@h2$27l=
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['rainshine-grace.vercel.app']
+ALLOWED_HOSTS = ['92c1-219-85-85-247.ngrok-free.app','rainshine-grace.vercel.app']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -87,3 +87,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 LINE_CHANNEL_ACCESS_TOKEN = '5hmnxzYANYLqOe9GFGtrOjcaYEcPV/BBNFTb0qofrjUavUJV4N+vHC8bOkMTNNn9xd836wgh0+qZEYUNUavv28FbkGYeM/8ZtprO2mV4qxl29HNlSeU9G0YlqDLM/5UmdEWboYPwjJkql/yKkSZemQdB04t89/1O/w1cDnyilFU='
 
 LINE_CHANNEL_SECRET = '1acaffd09fd5c11dcac679e0cd031594'
+
+WSGI_APPLICATION = 'vercel_app.wsgi.app'

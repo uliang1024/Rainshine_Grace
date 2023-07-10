@@ -1,14 +1,14 @@
 {
     "builds": [
       {
-        "src": "linebot_project/wsgi.py",
+        "src": "rainshinegrace/wsgi.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "linebot_project/wsgi.py"
+        "dest": "rainshinegrace/wsgi.py"
       }
     ]
 }
