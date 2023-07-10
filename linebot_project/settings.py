@@ -6,7 +6,7 @@ SECRET_KEY = 'django-insecure-96%)(&5ba@nkzc6%d5v&-ps8x5lam+00((7wjj%h-f@h2$27l=
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['rainshine-grace.vercel.app']
+ALLOWED_HOSTS = ['92c1-219-85-85-247.ngrok-free.app']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
