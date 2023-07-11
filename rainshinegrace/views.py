@@ -23,7 +23,7 @@ def fetch_quiz():
         response = requests.get(url)
         response.raise_for_status()
 
-        content = response.text
+        content = response.text.replace('\n', '').replace('\r', '').replace(' ', '')
 
         return content
     except requests.exceptions.RequestException as e:
@@ -84,18 +84,22 @@ def callback(request):
                         if quiz_data is not None:
                             question = re.search(r"<QUESTION>(.*?)</QUESTION>", quiz_data).group(1)
                             ans1 = re.search(r"<ANS1><ANS>(.*?)</ANS>", quiz_data).group(1)
+                            ans1_correct = re.search(r"<ANS1><ANS>.*?</ANS><CORRECT>(.*?)</CORRECT>", quiz_data).group(1)
                             ans2 = re.search(r"<ANS2><ANS>(.*?)</ANS>", quiz_data).group(1)
+                            ans2_correct = re.search(r"<ANS2><ANS>.*?</ANS><CORRECT>(.*?)</CORRECT>", quiz_data).group(1)
                             ans3 = re.search(r"<ANS3><ANS>(.*?)</ANS>", quiz_data).group(1)
+                            ans3_correct = re.search(r"<ANS3><ANS>.*?</ANS><CORRECT>(.*?)</CORRECT>", quiz_data).group(1)
                             ans4 = re.search(r"<ANS4><ANS>(.*?)</ANS>", quiz_data).group(1)
+                            ans4_correct = re.search(r"<ANS4><ANS>.*?</ANS><CORRECT>(.*?)</CORRECT>", quiz_data).group(1)
 
                             buttons_template = ButtonsTemplate(
                                 title='聖經問答',
                                 text=question,
                                 actions=[
-                                    PostbackTemplateAction(label=ans1, data=f"<ANS>{ans1}<CORRECT>0</CORRECT></ANS>"),
-                                    PostbackTemplateAction(label=ans2, data=f"<ANS>{ans2}<CORRECT>1</CORRECT></ANS>"),
-                                    PostbackTemplateAction(label=ans3, data=f"<ANS>{ans3}<CORRECT>0</CORRECT></ANS>"),
-                                    PostbackTemplateAction(label=ans4, data=f"<ANS>{ans4}<CORRECT>0</CORRECT></ANS>")
+                                    PostbackTemplateAction(label=ans1, data=f"<ANS>{ans1}<CORRECT>{ans1_correct}</CORRECT></ANS>"),
+                                    PostbackTemplateAction(label=ans2, data=f"<ANS>{ans2}<CORRECT>{ans2_correct}</CORRECT></ANS>"),
+                                    PostbackTemplateAction(label=ans3, data=f"<ANS>{ans3}<CORRECT>{ans3_correct}</CORRECT></ANS>"),
+                                    PostbackTemplateAction(label=ans4, data=f"<ANS>{ans4}<CORRECT>{ans4_correct}</CORRECT></ANS>")
                                 ]
                             )
                             template_message = TemplateSendMessage(
