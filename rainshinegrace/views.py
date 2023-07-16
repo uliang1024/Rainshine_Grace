@@ -56,9 +56,9 @@ def handle_postback(event):
     except LineBotApiError:
         line_bot_api.reply_message(
             event.reply_token,
-            TextSendMessage(text='我的孩子～將我加入為你的好友吧～')
+            TextSendMessage(text='我的孩子～將我加入為你的好友吧～\n加完好友再輸入一次『耶穌我準備好了🙏』')
         )
-        line_notify_send_message(message='加完好友再輸入一次『耶穌我準備好了🙏』')
+        # line_notify_send_message(message='加完好友再輸入一次『耶穌我準備好了🙏』')
         
 @csrf_exempt
 def callback(request):
@@ -119,9 +119,9 @@ def callback(request):
                     except LineBotApiError:
                         line_bot_api.reply_message(
                             event.reply_token,
-                            TextSendMessage(text='我的孩子～將我加入為你的好友吧～')
+                            TextSendMessage(text='我的孩子～將我加入為你的好友吧～\n加完好友再輸入一次『耶穌我準備好了🙏』')
                         )
-                        line_notify_send_message(message='加完好友再輸入一次『耶穌我準備好了🙏』')
+                        # line_notify_send_message(message='加完好友再輸入一次『耶穌我準備好了🙏』')
             elif isinstance(event, PostbackEvent):
                 handle_postback(event)
         return HttpResponse()
