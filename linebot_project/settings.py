@@ -3,7 +3,9 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 # 加載 .env 文件
-load_dotenv()
+# 確保加載正確的 .env 文件
+env_path = Path(__file__).resolve().parent.parent / ".env"
+load_dotenv(dotenv_path=env_path)
 
 # 基本設定
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -16,8 +18,9 @@ if ENVIRONMENT == "production":
 else:
     ALLOWED_HOSTS = ["*"]
 # LINE Bot 設定
-LINE_CHANNEL_ACCESS_TOKEN = os.getenv("LINE_CHANNEL_ACCESS_TOKEN")
-LINE_CHANNEL_SECRET = os.getenv("LINE_CHANNEL_SECRET")
+LINE_CHANNEL_ACCESS_TOKEN = os.getenv("NEW_LINE_CHANNEL_ACCESS_TOKEN")
+LINE_CHANNEL_SECRET = os.getenv("NEW_LINE_CHANNEL_SECRET")
+
 # 其他設定
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
@@ -29,7 +32,7 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "rainshinegrace.apps.RainshineGraceConfig",
+    "apps.rainshinegrace.apps.RainshineGraceConfig",
 ]
 
 MIDDLEWARE = [

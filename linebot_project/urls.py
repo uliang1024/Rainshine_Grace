@@ -7,6 +7,6 @@ urlpatterns = [
 ]
 
 if settings.ENVIRONMENT == "production":
-    urlpatterns.append(path("rainshinegrace/", include("rainshinegrace.urls")))
+    urlpatterns.append(path("rainshinegrace/", include("apps.rainshinegrace.urls")))
 else:
-    urlpatterns.append(path("", include("rainshinegrace.urls")))
+    urlpatterns.append(path("", include("apps.rainshinegrace.urls")))

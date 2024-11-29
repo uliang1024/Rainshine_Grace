@@ -29,6 +29,7 @@ def callback(request):
         for event in events:
             if isinstance(event, MessageEvent):
                 if event.message.text == "耶穌我準備好了🙏":
+                    print("耶穌我準備好了🙏")
                     try:
                         quiz_data = fetch_quiz()
                         if quiz_data is not None:
