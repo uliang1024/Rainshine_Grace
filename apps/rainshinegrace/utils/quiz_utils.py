@@ -1,7 +1,7 @@
 import requests
 import json
 import xml.etree.ElementTree as ET
-from ..utils.linebot_utils import get_user_profile, reply_message, set_buttons_template
+from ..utils.linebot_utils import get_user_profile, set_buttons_template
 from ..utils.messages import QuizMessages
 from linebot.models import TextSendMessage
 from linebot.exceptions import LineBotApiError

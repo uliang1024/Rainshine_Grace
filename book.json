@@ -1,0 +1,5288 @@
+{
+    "books": [
+        {
+            "usfm": "GEN",
+            "human": "創世記",
+            "chapters": [
+                {
+                    "usfm": "GEN.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "GEN.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "GEN.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "GEN.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "GEN.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "GEN.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "GEN.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "GEN.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "GEN.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "GEN.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "GEN.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "GEN.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "GEN.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "GEN.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "GEN.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "GEN.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "GEN.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "GEN.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "GEN.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "GEN.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "GEN.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "GEN.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "GEN.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "GEN.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "GEN.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "GEN.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "GEN.27",
+                    "human": "27"
+                },
+                {
+                    "usfm": "GEN.28",
+                    "human": "28"
+                },
+                {
+                    "usfm": "GEN.29",
+                    "human": "29"
+                },
+                {
+                    "usfm": "GEN.30",
+                    "human": "30"
+                },
+                {
+                    "usfm": "GEN.31",
+                    "human": "31"
+                },
+                {
+                    "usfm": "GEN.32",
+                    "human": "32"
+                },
+                {
+                    "usfm": "GEN.33",
+                    "human": "33"
+                },
+                {
+                    "usfm": "GEN.34",
+                    "human": "34"
+                },
+                {
+                    "usfm": "GEN.35",
+                    "human": "35"
+                },
+                {
+                    "usfm": "GEN.36",
+                    "human": "36"
+                },
+                {
+                    "usfm": "GEN.37",
+                    "human": "37"
+                },
+                {
+                    "usfm": "GEN.38",
+                    "human": "38"
+                },
+                {
+                    "usfm": "GEN.39",
+                    "human": "39"
+                },
+                {
+                    "usfm": "GEN.40",
+                    "human": "40"
+                },
+                {
+                    "usfm": "GEN.41",
+                    "human": "41"
+                },
+                {
+                    "usfm": "GEN.42",
+                    "human": "42"
+                },
+                {
+                    "usfm": "GEN.43",
+                    "human": "43"
+                },
+                {
+                    "usfm": "GEN.44",
+                    "human": "44"
+                },
+                {
+                    "usfm": "GEN.45",
+                    "human": "45"
+                },
+                {
+                    "usfm": "GEN.46",
+                    "human": "46"
+                },
+                {
+                    "usfm": "GEN.47",
+                    "human": "47"
+                },
+                {
+                    "usfm": "GEN.48",
+                    "human": "48"
+                },
+                {
+                    "usfm": "GEN.49",
+                    "human": "49"
+                },
+                {
+                    "usfm": "GEN.50",
+                    "human": "50"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "EXO",
+            "human": "出埃及記",
+            "chapters": [
+                {
+                    "usfm": "EXO.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "EXO.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "EXO.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "EXO.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "EXO.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "EXO.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "EXO.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "EXO.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "EXO.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "EXO.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "EXO.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "EXO.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "EXO.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "EXO.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "EXO.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "EXO.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "EXO.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "EXO.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "EXO.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "EXO.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "EXO.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "EXO.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "EXO.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "EXO.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "EXO.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "EXO.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "EXO.27",
+                    "human": "27"
+                },
+                {
+                    "usfm": "EXO.28",
+                    "human": "28"
+                },
+                {
+                    "usfm": "EXO.29",
+                    "human": "29"
+                },
+                {
+                    "usfm": "EXO.30",
+                    "human": "30"
+                },
+                {
+                    "usfm": "EXO.31",
+                    "human": "31"
+                },
+                {
+                    "usfm": "EXO.32",
+                    "human": "32"
+                },
+                {
+                    "usfm": "EXO.33",
+                    "human": "33"
+                },
+                {
+                    "usfm": "EXO.34",
+                    "human": "34"
+                },
+                {
+                    "usfm": "EXO.35",
+                    "human": "35"
+                },
+                {
+                    "usfm": "EXO.36",
+                    "human": "36"
+                },
+                {
+                    "usfm": "EXO.37",
+                    "human": "37"
+                },
+                {
+                    "usfm": "EXO.38",
+                    "human": "38"
+                },
+                {
+                    "usfm": "EXO.39",
+                    "human": "39"
+                },
+                {
+                    "usfm": "EXO.40",
+                    "human": "40"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "LEV",
+            "human": "利未記",
+            "chapters": [
+                {
+                    "usfm": "LEV.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "LEV.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "LEV.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "LEV.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "LEV.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "LEV.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "LEV.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "LEV.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "LEV.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "LEV.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "LEV.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "LEV.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "LEV.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "LEV.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "LEV.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "LEV.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "LEV.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "LEV.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "LEV.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "LEV.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "LEV.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "LEV.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "LEV.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "LEV.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "LEV.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "LEV.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "LEV.27",
+                    "human": "27"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "NUM",
+            "human": "民數記",
+            "chapters": [
+                {
+                    "usfm": "NUM.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "NUM.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "NUM.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "NUM.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "NUM.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "NUM.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "NUM.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "NUM.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "NUM.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "NUM.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "NUM.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "NUM.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "NUM.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "NUM.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "NUM.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "NUM.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "NUM.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "NUM.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "NUM.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "NUM.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "NUM.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "NUM.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "NUM.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "NUM.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "NUM.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "NUM.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "NUM.27",
+                    "human": "27"
+                },
+                {
+                    "usfm": "NUM.28",
+                    "human": "28"
+                },
+                {
+                    "usfm": "NUM.29",
+                    "human": "29"
+                },
+                {
+                    "usfm": "NUM.30",
+                    "human": "30"
+                },
+                {
+                    "usfm": "NUM.31",
+                    "human": "31"
+                },
+                {
+                    "usfm": "NUM.32",
+                    "human": "32"
+                },
+                {
+                    "usfm": "NUM.33",
+                    "human": "33"
+                },
+                {
+                    "usfm": "NUM.34",
+                    "human": "34"
+                },
+                {
+                    "usfm": "NUM.35",
+                    "human": "35"
+                },
+                {
+                    "usfm": "NUM.36",
+                    "human": "36"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "DEU",
+            "human": "申命記",
+            "chapters": [
+                {
+                    "usfm": "DEU.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "DEU.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "DEU.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "DEU.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "DEU.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "DEU.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "DEU.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "DEU.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "DEU.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "DEU.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "DEU.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "DEU.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "DEU.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "DEU.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "DEU.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "DEU.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "DEU.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "DEU.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "DEU.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "DEU.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "DEU.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "DEU.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "DEU.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "DEU.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "DEU.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "DEU.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "DEU.27",
+                    "human": "27"
+                },
+                {
+                    "usfm": "DEU.28",
+                    "human": "28"
+                },
+                {
+                    "usfm": "DEU.29",
+                    "human": "29"
+                },
+                {
+                    "usfm": "DEU.30",
+                    "human": "30"
+                },
+                {
+                    "usfm": "DEU.31",
+                    "human": "31"
+                },
+                {
+                    "usfm": "DEU.32",
+                    "human": "32"
+                },
+                {
+                    "usfm": "DEU.33",
+                    "human": "33"
+                },
+                {
+                    "usfm": "DEU.34",
+                    "human": "34"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "JOS",
+            "human": "約書亞記",
+            "chapters": [
+                {
+                    "usfm": "JOS.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "JOS.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "JOS.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "JOS.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "JOS.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "JOS.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "JOS.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "JOS.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "JOS.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "JOS.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "JOS.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "JOS.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "JOS.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "JOS.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "JOS.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "JOS.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "JOS.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "JOS.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "JOS.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "JOS.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "JOS.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "JOS.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "JOS.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "JOS.24",
+                    "human": "24"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "JDG",
+            "human": "士師記",
+            "chapters": [
+                {
+                    "usfm": "JDG.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "JDG.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "JDG.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "JDG.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "JDG.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "JDG.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "JDG.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "JDG.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "JDG.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "JDG.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "JDG.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "JDG.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "JDG.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "JDG.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "JDG.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "JDG.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "JDG.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "JDG.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "JDG.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "JDG.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "JDG.21",
+                    "human": "21"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "RUT",
+            "human": "路得記",
+            "chapters": [
+                {
+                    "usfm": "RUT.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "RUT.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "RUT.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "RUT.4",
+                    "human": "4"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "1SA",
+            "human": "撒母耳記上",
+            "chapters": [
+                {
+                    "usfm": "1SA.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "1SA.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "1SA.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "1SA.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "1SA.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "1SA.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "1SA.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "1SA.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "1SA.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "1SA.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "1SA.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "1SA.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "1SA.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "1SA.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "1SA.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "1SA.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "1SA.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "1SA.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "1SA.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "1SA.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "1SA.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "1SA.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "1SA.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "1SA.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "1SA.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "1SA.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "1SA.27",
+                    "human": "27"
+                },
+                {
+                    "usfm": "1SA.28",
+                    "human": "28"
+                },
+                {
+                    "usfm": "1SA.29",
+                    "human": "29"
+                },
+                {
+                    "usfm": "1SA.30",
+                    "human": "30"
+                },
+                {
+                    "usfm": "1SA.31",
+                    "human": "31"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "2SA",
+            "human": "撒母耳記下",
+            "chapters": [
+                {
+                    "usfm": "2SA.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "2SA.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "2SA.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "2SA.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "2SA.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "2SA.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "2SA.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "2SA.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "2SA.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "2SA.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "2SA.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "2SA.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "2SA.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "2SA.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "2SA.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "2SA.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "2SA.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "2SA.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "2SA.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "2SA.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "2SA.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "2SA.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "2SA.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "2SA.24",
+                    "human": "24"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "1KI",
+            "human": "列王紀上",
+            "chapters": [
+                {
+                    "usfm": "1KI.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "1KI.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "1KI.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "1KI.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "1KI.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "1KI.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "1KI.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "1KI.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "1KI.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "1KI.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "1KI.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "1KI.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "1KI.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "1KI.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "1KI.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "1KI.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "1KI.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "1KI.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "1KI.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "1KI.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "1KI.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "1KI.22",
+                    "human": "22"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "2KI",
+            "human": "列王紀下",
+            "chapters": [
+                {
+                    "usfm": "2KI.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "2KI.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "2KI.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "2KI.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "2KI.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "2KI.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "2KI.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "2KI.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "2KI.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "2KI.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "2KI.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "2KI.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "2KI.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "2KI.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "2KI.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "2KI.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "2KI.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "2KI.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "2KI.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "2KI.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "2KI.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "2KI.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "2KI.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "2KI.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "2KI.25",
+                    "human": "25"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "1CH",
+            "human": "歷代志上",
+            "chapters": [
+                {
+                    "usfm": "1CH.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "1CH.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "1CH.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "1CH.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "1CH.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "1CH.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "1CH.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "1CH.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "1CH.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "1CH.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "1CH.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "1CH.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "1CH.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "1CH.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "1CH.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "1CH.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "1CH.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "1CH.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "1CH.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "1CH.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "1CH.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "1CH.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "1CH.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "1CH.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "1CH.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "1CH.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "1CH.27",
+                    "human": "27"
+                },
+                {
+                    "usfm": "1CH.28",
+                    "human": "28"
+                },
+                {
+                    "usfm": "1CH.29",
+                    "human": "29"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "2CH",
+            "human": "歷代志下",
+            "chapters": [
+                {
+                    "usfm": "2CH.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "2CH.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "2CH.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "2CH.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "2CH.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "2CH.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "2CH.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "2CH.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "2CH.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "2CH.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "2CH.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "2CH.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "2CH.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "2CH.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "2CH.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "2CH.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "2CH.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "2CH.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "2CH.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "2CH.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "2CH.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "2CH.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "2CH.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "2CH.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "2CH.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "2CH.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "2CH.27",
+                    "human": "27"
+                },
+                {
+                    "usfm": "2CH.28",
+                    "human": "28"
+                },
+                {
+                    "usfm": "2CH.29",
+                    "human": "29"
+                },
+                {
+                    "usfm": "2CH.30",
+                    "human": "30"
+                },
+                {
+                    "usfm": "2CH.31",
+                    "human": "31"
+                },
+                {
+                    "usfm": "2CH.32",
+                    "human": "32"
+                },
+                {
+                    "usfm": "2CH.33",
+                    "human": "33"
+                },
+                {
+                    "usfm": "2CH.34",
+                    "human": "34"
+                },
+                {
+                    "usfm": "2CH.35",
+                    "human": "35"
+                },
+                {
+                    "usfm": "2CH.36",
+                    "human": "36"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "EZR",
+            "human": "以斯拉記",
+            "chapters": [
+                {
+                    "usfm": "EZR.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "EZR.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "EZR.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "EZR.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "EZR.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "EZR.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "EZR.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "EZR.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "EZR.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "EZR.10",
+                    "human": "10"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "NEH",
+            "human": "尼希米記",
+            "chapters": [
+                {
+                    "usfm": "NEH.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "NEH.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "NEH.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "NEH.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "NEH.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "NEH.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "NEH.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "NEH.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "NEH.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "NEH.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "NEH.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "NEH.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "NEH.13",
+                    "human": "13"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "EST",
+            "human": "以斯帖記",
+            "chapters": [
+                {
+                    "usfm": "EST.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "EST.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "EST.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "EST.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "EST.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "EST.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "EST.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "EST.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "EST.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "EST.10",
+                    "human": "10"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "JOB",
+            "human": "約伯記",
+            "chapters": [
+                {
+                    "usfm": "JOB.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "JOB.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "JOB.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "JOB.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "JOB.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "JOB.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "JOB.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "JOB.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "JOB.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "JOB.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "JOB.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "JOB.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "JOB.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "JOB.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "JOB.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "JOB.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "JOB.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "JOB.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "JOB.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "JOB.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "JOB.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "JOB.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "JOB.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "JOB.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "JOB.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "JOB.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "JOB.27",
+                    "human": "27"
+                },
+                {
+                    "usfm": "JOB.28",
+                    "human": "28"
+                },
+                {
+                    "usfm": "JOB.29",
+                    "human": "29"
+                },
+                {
+                    "usfm": "JOB.30",
+                    "human": "30"
+                },
+                {
+                    "usfm": "JOB.31",
+                    "human": "31"
+                },
+                {
+                    "usfm": "JOB.32",
+                    "human": "32"
+                },
+                {
+                    "usfm": "JOB.33",
+                    "human": "33"
+                },
+                {
+                    "usfm": "JOB.34",
+                    "human": "34"
+                },
+                {
+                    "usfm": "JOB.35",
+                    "human": "35"
+                },
+                {
+                    "usfm": "JOB.36",
+                    "human": "36"
+                },
+                {
+                    "usfm": "JOB.37",
+                    "human": "37"
+                },
+                {
+                    "usfm": "JOB.38",
+                    "human": "38"
+                },
+                {
+                    "usfm": "JOB.39",
+                    "human": "39"
+                },
+                {
+                    "usfm": "JOB.40",
+                    "human": "40"
+                },
+                {
+                    "usfm": "JOB.41",
+                    "human": "41"
+                },
+                {
+                    "usfm": "JOB.42",
+                    "human": "42"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "PSA",
+            "human": "詩篇",
+            "chapters": [
+                {
+                    "usfm": "PSA.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "PSA.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "PSA.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "PSA.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "PSA.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "PSA.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "PSA.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "PSA.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "PSA.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "PSA.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "PSA.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "PSA.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "PSA.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "PSA.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "PSA.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "PSA.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "PSA.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "PSA.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "PSA.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "PSA.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "PSA.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "PSA.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "PSA.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "PSA.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "PSA.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "PSA.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "PSA.27",
+                    "human": "27"
+                },
+                {
+                    "usfm": "PSA.28",
+                    "human": "28"
+                },
+                {
+                    "usfm": "PSA.29",
+                    "human": "29"
+                },
+                {
+                    "usfm": "PSA.30",
+                    "human": "30"
+                },
+                {
+                    "usfm": "PSA.31",
+                    "human": "31"
+                },
+                {
+                    "usfm": "PSA.32",
+                    "human": "32"
+                },
+                {
+                    "usfm": "PSA.33",
+                    "human": "33"
+                },
+                {
+                    "usfm": "PSA.34",
+                    "human": "34"
+                },
+                {
+                    "usfm": "PSA.35",
+                    "human": "35"
+                },
+                {
+                    "usfm": "PSA.36",
+                    "human": "36"
+                },
+                {
+                    "usfm": "PSA.37",
+                    "human": "37"
+                },
+                {
+                    "usfm": "PSA.38",
+                    "human": "38"
+                },
+                {
+                    "usfm": "PSA.39",
+                    "human": "39"
+                },
+                {
+                    "usfm": "PSA.40",
+                    "human": "40"
+                },
+                {
+                    "usfm": "PSA.41",
+                    "human": "41"
+                },
+                {
+                    "usfm": "PSA.42",
+                    "human": "42"
+                },
+                {
+                    "usfm": "PSA.43",
+                    "human": "43"
+                },
+                {
+                    "usfm": "PSA.44",
+                    "human": "44"
+                },
+                {
+                    "usfm": "PSA.45",
+                    "human": "45"
+                },
+                {
+                    "usfm": "PSA.46",
+                    "human": "46"
+                },
+                {
+                    "usfm": "PSA.47",
+                    "human": "47"
+                },
+                {
+                    "usfm": "PSA.48",
+                    "human": "48"
+                },
+                {
+                    "usfm": "PSA.49",
+                    "human": "49"
+                },
+                {
+                    "usfm": "PSA.50",
+                    "human": "50"
+                },
+                {
+                    "usfm": "PSA.51",
+                    "human": "51"
+                },
+                {
+                    "usfm": "PSA.52",
+                    "human": "52"
+                },
+                {
+                    "usfm": "PSA.53",
+                    "human": "53"
+                },
+                {
+                    "usfm": "PSA.54",
+                    "human": "54"
+                },
+                {
+                    "usfm": "PSA.55",
+                    "human": "55"
+                },
+                {
+                    "usfm": "PSA.56",
+                    "human": "56"
+                },
+                {
+                    "usfm": "PSA.57",
+                    "human": "57"
+                },
+                {
+                    "usfm": "PSA.58",
+                    "human": "58"
+                },
+                {
+                    "usfm": "PSA.59",
+                    "human": "59"
+                },
+                {
+                    "usfm": "PSA.60",
+                    "human": "60"
+                },
+                {
+                    "usfm": "PSA.61",
+                    "human": "61"
+                },
+                {
+                    "usfm": "PSA.62",
+                    "human": "62"
+                },
+                {
+                    "usfm": "PSA.63",
+                    "human": "63"
+                },
+                {
+                    "usfm": "PSA.64",
+                    "human": "64"
+                },
+                {
+                    "usfm": "PSA.65",
+                    "human": "65"
+                },
+                {
+                    "usfm": "PSA.66",
+                    "human": "66"
+                },
+                {
+                    "usfm": "PSA.67",
+                    "human": "67"
+                },
+                {
+                    "usfm": "PSA.68",
+                    "human": "68"
+                },
+                {
+                    "usfm": "PSA.69",
+                    "human": "69"
+                },
+                {
+                    "usfm": "PSA.70",
+                    "human": "70"
+                },
+                {
+                    "usfm": "PSA.71",
+                    "human": "71"
+                },
+                {
+                    "usfm": "PSA.72",
+                    "human": "72"
+                },
+                {
+                    "usfm": "PSA.73",
+                    "human": "73"
+                },
+                {
+                    "usfm": "PSA.74",
+                    "human": "74"
+                },
+                {
+                    "usfm": "PSA.75",
+                    "human": "75"
+                },
+                {
+                    "usfm": "PSA.76",
+                    "human": "76"
+                },
+                {
+                    "usfm": "PSA.77",
+                    "human": "77"
+                },
+                {
+                    "usfm": "PSA.78",
+                    "human": "78"
+                },
+                {
+                    "usfm": "PSA.79",
+                    "human": "79"
+                },
+                {
+                    "usfm": "PSA.80",
+                    "human": "80"
+                },
+                {
+                    "usfm": "PSA.81",
+                    "human": "81"
+                },
+                {
+                    "usfm": "PSA.82",
+                    "human": "82"
+                },
+                {
+                    "usfm": "PSA.83",
+                    "human": "83"
+                },
+                {
+                    "usfm": "PSA.84",
+                    "human": "84"
+                },
+                {
+                    "usfm": "PSA.85",
+                    "human": "85"
+                },
+                {
+                    "usfm": "PSA.86",
+                    "human": "86"
+                },
+                {
+                    "usfm": "PSA.87",
+                    "human": "87"
+                },
+                {
+                    "usfm": "PSA.88",
+                    "human": "88"
+                },
+                {
+                    "usfm": "PSA.89",
+                    "human": "89"
+                },
+                {
+                    "usfm": "PSA.90",
+                    "human": "90"
+                },
+                {
+                    "usfm": "PSA.91",
+                    "human": "91"
+                },
+                {
+                    "usfm": "PSA.92",
+                    "human": "92"
+                },
+                {
+                    "usfm": "PSA.93",
+                    "human": "93"
+                },
+                {
+                    "usfm": "PSA.94",
+                    "human": "94"
+                },
+                {
+                    "usfm": "PSA.95",
+                    "human": "95"
+                },
+                {
+                    "usfm": "PSA.96",
+                    "human": "96"
+                },
+                {
+                    "usfm": "PSA.97",
+                    "human": "97"
+                },
+                {
+                    "usfm": "PSA.98",
+                    "human": "98"
+                },
+                {
+                    "usfm": "PSA.99",
+                    "human": "99"
+                },
+                {
+                    "usfm": "PSA.100",
+                    "human": "100"
+                },
+                {
+                    "usfm": "PSA.101",
+                    "human": "101"
+                },
+                {
+                    "usfm": "PSA.102",
+                    "human": "102"
+                },
+                {
+                    "usfm": "PSA.103",
+                    "human": "103"
+                },
+                {
+                    "usfm": "PSA.104",
+                    "human": "104"
+                },
+                {
+                    "usfm": "PSA.105",
+                    "human": "105"
+                },
+                {
+                    "usfm": "PSA.106",
+                    "human": "106"
+                },
+                {
+                    "usfm": "PSA.107",
+                    "human": "107"
+                },
+                {
+                    "usfm": "PSA.108",
+                    "human": "108"
+                },
+                {
+                    "usfm": "PSA.109",
+                    "human": "109"
+                },
+                {
+                    "usfm": "PSA.110",
+                    "human": "110"
+                },
+                {
+                    "usfm": "PSA.111",
+                    "human": "111"
+                },
+                {
+                    "usfm": "PSA.112",
+                    "human": "112"
+                },
+                {
+                    "usfm": "PSA.113",
+                    "human": "113"
+                },
+                {
+                    "usfm": "PSA.114",
+                    "human": "114"
+                },
+                {
+                    "usfm": "PSA.115",
+                    "human": "115"
+                },
+                {
+                    "usfm": "PSA.116",
+                    "human": "116"
+                },
+                {
+                    "usfm": "PSA.117",
+                    "human": "117"
+                },
+                {
+                    "usfm": "PSA.118",
+                    "human": "118"
+                },
+                {
+                    "usfm": "PSA.119",
+                    "human": "119"
+                },
+                {
+                    "usfm": "PSA.120",
+                    "human": "120"
+                },
+                {
+                    "usfm": "PSA.121",
+                    "human": "121"
+                },
+                {
+                    "usfm": "PSA.122",
+                    "human": "122"
+                },
+                {
+                    "usfm": "PSA.123",
+                    "human": "123"
+                },
+                {
+                    "usfm": "PSA.124",
+                    "human": "124"
+                },
+                {
+                    "usfm": "PSA.125",
+                    "human": "125"
+                },
+                {
+                    "usfm": "PSA.126",
+                    "human": "126"
+                },
+                {
+                    "usfm": "PSA.127",
+                    "human": "127"
+                },
+                {
+                    "usfm": "PSA.128",
+                    "human": "128"
+                },
+                {
+                    "usfm": "PSA.129",
+                    "human": "129"
+                },
+                {
+                    "usfm": "PSA.130",
+                    "human": "130"
+                },
+                {
+                    "usfm": "PSA.131",
+                    "human": "131"
+                },
+                {
+                    "usfm": "PSA.132",
+                    "human": "132"
+                },
+                {
+                    "usfm": "PSA.133",
+                    "human": "133"
+                },
+                {
+                    "usfm": "PSA.134",
+                    "human": "134"
+                },
+                {
+                    "usfm": "PSA.135",
+                    "human": "135"
+                },
+                {
+                    "usfm": "PSA.136",
+                    "human": "136"
+                },
+                {
+                    "usfm": "PSA.137",
+                    "human": "137"
+                },
+                {
+                    "usfm": "PSA.138",
+                    "human": "138"
+                },
+                {
+                    "usfm": "PSA.139",
+                    "human": "139"
+                },
+                {
+                    "usfm": "PSA.140",
+                    "human": "140"
+                },
+                {
+                    "usfm": "PSA.141",
+                    "human": "141"
+                },
+                {
+                    "usfm": "PSA.142",
+                    "human": "142"
+                },
+                {
+                    "usfm": "PSA.143",
+                    "human": "143"
+                },
+                {
+                    "usfm": "PSA.144",
+                    "human": "144"
+                },
+                {
+                    "usfm": "PSA.145",
+                    "human": "145"
+                },
+                {
+                    "usfm": "PSA.146",
+                    "human": "146"
+                },
+                {
+                    "usfm": "PSA.147",
+                    "human": "147"
+                },
+                {
+                    "usfm": "PSA.148",
+                    "human": "148"
+                },
+                {
+                    "usfm": "PSA.149",
+                    "human": "149"
+                },
+                {
+                    "usfm": "PSA.150",
+                    "human": "150"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "PRO",
+            "human": "箴言",
+            "chapters": [
+                {
+                    "usfm": "PRO.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "PRO.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "PRO.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "PRO.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "PRO.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "PRO.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "PRO.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "PRO.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "PRO.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "PRO.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "PRO.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "PRO.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "PRO.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "PRO.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "PRO.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "PRO.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "PRO.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "PRO.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "PRO.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "PRO.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "PRO.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "PRO.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "PRO.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "PRO.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "PRO.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "PRO.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "PRO.27",
+                    "human": "27"
+                },
+                {
+                    "usfm": "PRO.28",
+                    "human": "28"
+                },
+                {
+                    "usfm": "PRO.29",
+                    "human": "29"
+                },
+                {
+                    "usfm": "PRO.30",
+                    "human": "30"
+                },
+                {
+                    "usfm": "PRO.31",
+                    "human": "31"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "ECC",
+            "human": "傳道書",
+            "chapters": [
+                {
+                    "usfm": "ECC.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "ECC.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "ECC.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "ECC.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "ECC.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "ECC.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "ECC.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "ECC.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "ECC.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "ECC.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "ECC.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "ECC.12",
+                    "human": "12"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "SNG",
+            "human": "雅歌",
+            "chapters": [
+                {
+                    "usfm": "SNG.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "SNG.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "SNG.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "SNG.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "SNG.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "SNG.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "SNG.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "SNG.8",
+                    "human": "8"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "ISA",
+            "human": "以賽亞書",
+            "chapters": [
+                {
+                    "usfm": "ISA.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "ISA.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "ISA.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "ISA.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "ISA.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "ISA.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "ISA.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "ISA.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "ISA.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "ISA.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "ISA.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "ISA.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "ISA.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "ISA.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "ISA.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "ISA.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "ISA.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "ISA.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "ISA.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "ISA.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "ISA.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "ISA.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "ISA.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "ISA.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "ISA.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "ISA.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "ISA.27",
+                    "human": "27"
+                },
+                {
+                    "usfm": "ISA.28",
+                    "human": "28"
+                },
+                {
+                    "usfm": "ISA.29",
+                    "human": "29"
+                },
+                {
+                    "usfm": "ISA.30",
+                    "human": "30"
+                },
+                {
+                    "usfm": "ISA.31",
+                    "human": "31"
+                },
+                {
+                    "usfm": "ISA.32",
+                    "human": "32"
+                },
+                {
+                    "usfm": "ISA.33",
+                    "human": "33"
+                },
+                {
+                    "usfm": "ISA.34",
+                    "human": "34"
+                },
+                {
+                    "usfm": "ISA.35",
+                    "human": "35"
+                },
+                {
+                    "usfm": "ISA.36",
+                    "human": "36"
+                },
+                {
+                    "usfm": "ISA.37",
+                    "human": "37"
+                },
+                {
+                    "usfm": "ISA.38",
+                    "human": "38"
+                },
+                {
+                    "usfm": "ISA.39",
+                    "human": "39"
+                },
+                {
+                    "usfm": "ISA.40",
+                    "human": "40"
+                },
+                {
+                    "usfm": "ISA.41",
+                    "human": "41"
+                },
+                {
+                    "usfm": "ISA.42",
+                    "human": "42"
+                },
+                {
+                    "usfm": "ISA.43",
+                    "human": "43"
+                },
+                {
+                    "usfm": "ISA.44",
+                    "human": "44"
+                },
+                {
+                    "usfm": "ISA.45",
+                    "human": "45"
+                },
+                {
+                    "usfm": "ISA.46",
+                    "human": "46"
+                },
+                {
+                    "usfm": "ISA.47",
+                    "human": "47"
+                },
+                {
+                    "usfm": "ISA.48",
+                    "human": "48"
+                },
+                {
+                    "usfm": "ISA.49",
+                    "human": "49"
+                },
+                {
+                    "usfm": "ISA.50",
+                    "human": "50"
+                },
+                {
+                    "usfm": "ISA.51",
+                    "human": "51"
+                },
+                {
+                    "usfm": "ISA.52",
+                    "human": "52"
+                },
+                {
+                    "usfm": "ISA.53",
+                    "human": "53"
+                },
+                {
+                    "usfm": "ISA.54",
+                    "human": "54"
+                },
+                {
+                    "usfm": "ISA.55",
+                    "human": "55"
+                },
+                {
+                    "usfm": "ISA.56",
+                    "human": "56"
+                },
+                {
+                    "usfm": "ISA.57",
+                    "human": "57"
+                },
+                {
+                    "usfm": "ISA.58",
+                    "human": "58"
+                },
+                {
+                    "usfm": "ISA.59",
+                    "human": "59"
+                },
+                {
+                    "usfm": "ISA.60",
+                    "human": "60"
+                },
+                {
+                    "usfm": "ISA.61",
+                    "human": "61"
+                },
+                {
+                    "usfm": "ISA.62",
+                    "human": "62"
+                },
+                {
+                    "usfm": "ISA.63",
+                    "human": "63"
+                },
+                {
+                    "usfm": "ISA.64",
+                    "human": "64"
+                },
+                {
+                    "usfm": "ISA.65",
+                    "human": "65"
+                },
+                {
+                    "usfm": "ISA.66",
+                    "human": "66"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "JER",
+            "human": "耶利米書",
+            "chapters": [
+                {
+                    "usfm": "JER.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "JER.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "JER.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "JER.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "JER.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "JER.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "JER.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "JER.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "JER.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "JER.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "JER.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "JER.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "JER.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "JER.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "JER.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "JER.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "JER.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "JER.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "JER.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "JER.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "JER.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "JER.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "JER.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "JER.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "JER.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "JER.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "JER.27",
+                    "human": "27"
+                },
+                {
+                    "usfm": "JER.28",
+                    "human": "28"
+                },
+                {
+                    "usfm": "JER.29",
+                    "human": "29"
+                },
+                {
+                    "usfm": "JER.30",
+                    "human": "30"
+                },
+                {
+                    "usfm": "JER.31",
+                    "human": "31"
+                },
+                {
+                    "usfm": "JER.32",
+                    "human": "32"
+                },
+                {
+                    "usfm": "JER.33",
+                    "human": "33"
+                },
+                {
+                    "usfm": "JER.34",
+                    "human": "34"
+                },
+                {
+                    "usfm": "JER.35",
+                    "human": "35"
+                },
+                {
+                    "usfm": "JER.36",
+                    "human": "36"
+                },
+                {
+                    "usfm": "JER.37",
+                    "human": "37"
+                },
+                {
+                    "usfm": "JER.38",
+                    "human": "38"
+                },
+                {
+                    "usfm": "JER.39",
+                    "human": "39"
+                },
+                {
+                    "usfm": "JER.40",
+                    "human": "40"
+                },
+                {
+                    "usfm": "JER.41",
+                    "human": "41"
+                },
+                {
+                    "usfm": "JER.42",
+                    "human": "42"
+                },
+                {
+                    "usfm": "JER.43",
+                    "human": "43"
+                },
+                {
+                    "usfm": "JER.44",
+                    "human": "44"
+                },
+                {
+                    "usfm": "JER.45",
+                    "human": "45"
+                },
+                {
+                    "usfm": "JER.46",
+                    "human": "46"
+                },
+                {
+                    "usfm": "JER.47",
+                    "human": "47"
+                },
+                {
+                    "usfm": "JER.48",
+                    "human": "48"
+                },
+                {
+                    "usfm": "JER.49",
+                    "human": "49"
+                },
+                {
+                    "usfm": "JER.50",
+                    "human": "50"
+                },
+                {
+                    "usfm": "JER.51",
+                    "human": "51"
+                },
+                {
+                    "usfm": "JER.52",
+                    "human": "52"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "LAM",
+            "human": "耶利米哀歌",
+            "chapters": [
+                {
+                    "usfm": "LAM.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "LAM.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "LAM.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "LAM.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "LAM.5",
+                    "human": "5"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "EZK",
+            "human": "以西結書",
+            "chapters": [
+                {
+                    "usfm": "EZK.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "EZK.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "EZK.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "EZK.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "EZK.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "EZK.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "EZK.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "EZK.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "EZK.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "EZK.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "EZK.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "EZK.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "EZK.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "EZK.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "EZK.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "EZK.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "EZK.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "EZK.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "EZK.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "EZK.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "EZK.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "EZK.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "EZK.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "EZK.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "EZK.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "EZK.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "EZK.27",
+                    "human": "27"
+                },
+                {
+                    "usfm": "EZK.28",
+                    "human": "28"
+                },
+                {
+                    "usfm": "EZK.29",
+                    "human": "29"
+                },
+                {
+                    "usfm": "EZK.30",
+                    "human": "30"
+                },
+                {
+                    "usfm": "EZK.31",
+                    "human": "31"
+                },
+                {
+                    "usfm": "EZK.32",
+                    "human": "32"
+                },
+                {
+                    "usfm": "EZK.33",
+                    "human": "33"
+                },
+                {
+                    "usfm": "EZK.34",
+                    "human": "34"
+                },
+                {
+                    "usfm": "EZK.35",
+                    "human": "35"
+                },
+                {
+                    "usfm": "EZK.36",
+                    "human": "36"
+                },
+                {
+                    "usfm": "EZK.37",
+                    "human": "37"
+                },
+                {
+                    "usfm": "EZK.38",
+                    "human": "38"
+                },
+                {
+                    "usfm": "EZK.39",
+                    "human": "39"
+                },
+                {
+                    "usfm": "EZK.40",
+                    "human": "40"
+                },
+                {
+                    "usfm": "EZK.41",
+                    "human": "41"
+                },
+                {
+                    "usfm": "EZK.42",
+                    "human": "42"
+                },
+                {
+                    "usfm": "EZK.43",
+                    "human": "43"
+                },
+                {
+                    "usfm": "EZK.44",
+                    "human": "44"
+                },
+                {
+                    "usfm": "EZK.45",
+                    "human": "45"
+                },
+                {
+                    "usfm": "EZK.46",
+                    "human": "46"
+                },
+                {
+                    "usfm": "EZK.47",
+                    "human": "47"
+                },
+                {
+                    "usfm": "EZK.48",
+                    "human": "48"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "DAN",
+            "human": "但以理書",
+            "chapters": [
+                {
+                    "usfm": "DAN.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "DAN.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "DAN.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "DAN.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "DAN.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "DAN.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "DAN.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "DAN.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "DAN.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "DAN.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "DAN.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "DAN.12",
+                    "human": "12"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "HOS",
+            "human": "何西阿書",
+            "chapters": [
+                {
+                    "usfm": "HOS.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "HOS.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "HOS.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "HOS.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "HOS.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "HOS.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "HOS.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "HOS.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "HOS.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "HOS.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "HOS.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "HOS.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "HOS.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "HOS.14",
+                    "human": "14"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "JOL",
+            "human": "約珥書",
+            "chapters": [
+                {
+                    "usfm": "JOL.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "JOL.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "JOL.3",
+                    "human": "3"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "AMO",
+            "human": "阿摩司書",
+            "chapters": [
+                {
+                    "usfm": "AMO.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "AMO.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "AMO.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "AMO.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "AMO.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "AMO.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "AMO.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "AMO.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "AMO.9",
+                    "human": "9"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "OBA",
+            "human": "俄巴底亞書",
+            "chapters": [
+                {
+                    "usfm": "OBA.1",
+                    "human": "1"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "JON",
+            "human": "約拿書",
+            "chapters": [
+                {
+                    "usfm": "JON.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "JON.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "JON.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "JON.4",
+                    "human": "4"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "MIC",
+            "human": "彌迦書",
+            "chapters": [
+                {
+                    "usfm": "MIC.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "MIC.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "MIC.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "MIC.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "MIC.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "MIC.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "MIC.7",
+                    "human": "7"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "NAM",
+            "human": "那鴻書",
+            "chapters": [
+                {
+                    "usfm": "NAM.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "NAM.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "NAM.3",
+                    "human": "3"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "HAB",
+            "human": "哈巴谷書",
+            "chapters": [
+                {
+                    "usfm": "HAB.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "HAB.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "HAB.3",
+                    "human": "3"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "ZEP",
+            "human": "西番雅書",
+            "chapters": [
+                {
+                    "usfm": "ZEP.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "ZEP.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "ZEP.3",
+                    "human": "3"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "HAG",
+            "human": "哈該書",
+            "chapters": [
+                {
+                    "usfm": "HAG.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "HAG.2",
+                    "human": "2"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "ZEC",
+            "human": "撒迦利亞書",
+            "chapters": [
+                {
+                    "usfm": "ZEC.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "ZEC.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "ZEC.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "ZEC.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "ZEC.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "ZEC.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "ZEC.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "ZEC.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "ZEC.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "ZEC.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "ZEC.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "ZEC.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "ZEC.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "ZEC.14",
+                    "human": "14"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "MAL",
+            "human": "瑪拉基書",
+            "chapters": [
+                {
+                    "usfm": "MAL.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "MAL.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "MAL.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "MAL.4",
+                    "human": "4"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "MAT",
+            "human": "馬太福音",
+            "chapters": [
+                {
+                    "usfm": "MAT.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "MAT.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "MAT.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "MAT.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "MAT.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "MAT.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "MAT.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "MAT.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "MAT.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "MAT.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "MAT.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "MAT.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "MAT.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "MAT.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "MAT.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "MAT.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "MAT.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "MAT.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "MAT.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "MAT.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "MAT.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "MAT.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "MAT.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "MAT.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "MAT.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "MAT.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "MAT.27",
+                    "human": "27"
+                },
+                {
+                    "usfm": "MAT.28",
+                    "human": "28"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "MRK",
+            "human": "馬可福音",
+            "chapters": [
+                {
+                    "usfm": "MRK.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "MRK.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "MRK.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "MRK.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "MRK.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "MRK.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "MRK.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "MRK.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "MRK.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "MRK.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "MRK.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "MRK.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "MRK.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "MRK.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "MRK.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "MRK.16",
+                    "human": "16"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "LUK",
+            "human": "路加福音",
+            "chapters": [
+                {
+                    "usfm": "LUK.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "LUK.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "LUK.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "LUK.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "LUK.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "LUK.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "LUK.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "LUK.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "LUK.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "LUK.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "LUK.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "LUK.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "LUK.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "LUK.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "LUK.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "LUK.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "LUK.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "LUK.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "LUK.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "LUK.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "LUK.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "LUK.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "LUK.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "LUK.24",
+                    "human": "24"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "JHN",
+            "human": "約翰福音",
+            "chapters": [
+                {
+                    "usfm": "JHN.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "JHN.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "JHN.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "JHN.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "JHN.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "JHN.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "JHN.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "JHN.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "JHN.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "JHN.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "JHN.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "JHN.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "JHN.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "JHN.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "JHN.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "JHN.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "JHN.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "JHN.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "JHN.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "JHN.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "JHN.21",
+                    "human": "21"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "ACT",
+            "human": "使徒行傳",
+            "chapters": [
+                {
+                    "usfm": "ACT.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "ACT.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "ACT.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "ACT.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "ACT.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "ACT.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "ACT.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "ACT.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "ACT.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "ACT.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "ACT.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "ACT.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "ACT.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "ACT.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "ACT.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "ACT.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "ACT.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "ACT.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "ACT.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "ACT.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "ACT.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "ACT.22",
+                    "human": "22"
+                },
+                {
+                    "usfm": "ACT.23",
+                    "human": "23"
+                },
+                {
+                    "usfm": "ACT.24",
+                    "human": "24"
+                },
+                {
+                    "usfm": "ACT.25",
+                    "human": "25"
+                },
+                {
+                    "usfm": "ACT.26",
+                    "human": "26"
+                },
+                {
+                    "usfm": "ACT.27",
+                    "human": "27"
+                },
+                {
+                    "usfm": "ACT.28",
+                    "human": "28"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "ROM",
+            "human": "羅馬書",
+            "chapters": [
+                {
+                    "usfm": "ROM.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "ROM.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "ROM.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "ROM.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "ROM.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "ROM.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "ROM.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "ROM.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "ROM.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "ROM.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "ROM.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "ROM.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "ROM.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "ROM.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "ROM.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "ROM.16",
+                    "human": "16"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "1CO",
+            "human": "哥林多前書",
+            "chapters": [
+                {
+                    "usfm": "1CO.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "1CO.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "1CO.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "1CO.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "1CO.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "1CO.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "1CO.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "1CO.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "1CO.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "1CO.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "1CO.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "1CO.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "1CO.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "1CO.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "1CO.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "1CO.16",
+                    "human": "16"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "2CO",
+            "human": "哥林多後書",
+            "chapters": [
+                {
+                    "usfm": "2CO.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "2CO.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "2CO.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "2CO.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "2CO.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "2CO.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "2CO.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "2CO.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "2CO.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "2CO.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "2CO.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "2CO.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "2CO.13",
+                    "human": "13"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "GAL",
+            "human": "加拉太書",
+            "chapters": [
+                {
+                    "usfm": "GAL.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "GAL.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "GAL.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "GAL.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "GAL.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "GAL.6",
+                    "human": "6"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "EPH",
+            "human": "以弗所書",
+            "chapters": [
+                {
+                    "usfm": "EPH.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "EPH.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "EPH.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "EPH.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "EPH.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "EPH.6",
+                    "human": "6"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "PHP",
+            "human": "腓立比書",
+            "chapters": [
+                {
+                    "usfm": "PHP.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "PHP.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "PHP.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "PHP.4",
+                    "human": "4"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "COL",
+            "human": "歌羅西書",
+            "chapters": [
+                {
+                    "usfm": "COL.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "COL.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "COL.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "COL.4",
+                    "human": "4"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "1TH",
+            "human": "帖撒羅尼迦前書",
+            "chapters": [
+                {
+                    "usfm": "1TH.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "1TH.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "1TH.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "1TH.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "1TH.5",
+                    "human": "5"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "2TH",
+            "human": "帖撒羅尼迦後書",
+            "chapters": [
+                {
+                    "usfm": "2TH.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "2TH.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "2TH.3",
+                    "human": "3"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "1TI",
+            "human": "提摩太前書",
+            "chapters": [
+                {
+                    "usfm": "1TI.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "1TI.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "1TI.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "1TI.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "1TI.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "1TI.6",
+                    "human": "6"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "2TI",
+            "human": "提摩太後書",
+            "chapters": [
+                {
+                    "usfm": "2TI.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "2TI.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "2TI.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "2TI.4",
+                    "human": "4"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "TIT",
+            "human": "提多書",
+            "chapters": [
+                {
+                    "usfm": "TIT.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "TIT.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "TIT.3",
+                    "human": "3"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "PHM",
+            "human": "腓利門書",
+            "chapters": [
+                {
+                    "usfm": "PHM.1",
+                    "human": "1"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "HEB",
+            "human": "希伯來書",
+            "chapters": [
+                {
+                    "usfm": "HEB.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "HEB.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "HEB.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "HEB.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "HEB.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "HEB.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "HEB.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "HEB.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "HEB.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "HEB.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "HEB.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "HEB.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "HEB.13",
+                    "human": "13"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "JAS",
+            "human": "雅各書",
+            "chapters": [
+                {
+                    "usfm": "JAS.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "JAS.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "JAS.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "JAS.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "JAS.5",
+                    "human": "5"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "1PE",
+            "human": "彼得前書",
+            "chapters": [
+                {
+                    "usfm": "1PE.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "1PE.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "1PE.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "1PE.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "1PE.5",
+                    "human": "5"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "2PE",
+            "human": "彼得後書",
+            "chapters": [
+                {
+                    "usfm": "2PE.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "2PE.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "2PE.3",
+                    "human": "3"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "1JN",
+            "human": "約翰一書",
+            "chapters": [
+                {
+                    "usfm": "1JN.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "1JN.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "1JN.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "1JN.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "1JN.5",
+                    "human": "5"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "2JN",
+            "human": "約翰二書",
+            "chapters": [
+                {
+                    "usfm": "2JN.1",
+                    "human": "1"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "3JN",
+            "human": "約翰三書",
+            "chapters": [
+                {
+                    "usfm": "3JN.1",
+                    "human": "1"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "JUD",
+            "human": "猶大書",
+            "chapters": [
+                {
+                    "usfm": "JUD.1",
+                    "human": "1"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        },
+        {
+            "usfm": "REV",
+            "human": "啟示錄",
+            "chapters": [
+                {
+                    "usfm": "REV.1",
+                    "human": "1"
+                },
+                {
+                    "usfm": "REV.2",
+                    "human": "2"
+                },
+                {
+                    "usfm": "REV.3",
+                    "human": "3"
+                },
+                {
+                    "usfm": "REV.4",
+                    "human": "4"
+                },
+                {
+                    "usfm": "REV.5",
+                    "human": "5"
+                },
+                {
+                    "usfm": "REV.6",
+                    "human": "6"
+                },
+                {
+                    "usfm": "REV.7",
+                    "human": "7"
+                },
+                {
+                    "usfm": "REV.8",
+                    "human": "8"
+                },
+                {
+                    "usfm": "REV.9",
+                    "human": "9"
+                },
+                {
+                    "usfm": "REV.10",
+                    "human": "10"
+                },
+                {
+                    "usfm": "REV.11",
+                    "human": "11"
+                },
+                {
+                    "usfm": "REV.12",
+                    "human": "12"
+                },
+                {
+                    "usfm": "REV.13",
+                    "human": "13"
+                },
+                {
+                    "usfm": "REV.14",
+                    "human": "14"
+                },
+                {
+                    "usfm": "REV.15",
+                    "human": "15"
+                },
+                {
+                    "usfm": "REV.16",
+                    "human": "16"
+                },
+                {
+                    "usfm": "REV.17",
+                    "human": "17"
+                },
+                {
+                    "usfm": "REV.18",
+                    "human": "18"
+                },
+                {
+                    "usfm": "REV.19",
+                    "human": "19"
+                },
+                {
+                    "usfm": "REV.20",
+                    "human": "20"
+                },
+                {
+                    "usfm": "REV.21",
+                    "human": "21"
+                },
+                {
+                    "usfm": "REV.22",
+                    "human": "22"
+                }
+            ],
+            "human_long": "",
+            "abbreviation": ""
+        }
+    ]
+}
