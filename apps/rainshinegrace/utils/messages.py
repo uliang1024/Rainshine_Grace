@@ -7,3 +7,9 @@ class QuizMessages:
     QUIZ_WRONG_DEFAULT = "總有人摸我，因我覺得有能力從我身上出去。(路8:46)"
     QUIZ_ERROR = "無法獲取問題和選項資料，請稍後再試！"
     QUIZ_ERROR_DEFAULT = "發生錯誤，請稍後再試！"
+
+
+class DailyBibleMessages:
+    DAILY_BIBLE_MESSAGE = "今日經文~"
+    DAILY_BIBLE_ALT_TEXT = "【今日經文】\n"
+    DAILY_BIBLE_ERROR = "無法獲取今日經文，請稍後再試！"
