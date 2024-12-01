@@ -2,31 +2,30 @@ import requests
 import json
 import xml.etree.ElementTree as ET
 from ..utils.linebot_utils import get_user_profile, reply_message, set_buttons_template
+from ..utils.messages import QuizMessages
 from linebot.models import TextSendMessage
 from linebot.exceptions import LineBotApiError
 
 
-def get_quiz(event):
+# 取得聖經問答
+def get_quiz():
     quiz_data = fetch_quiz()
     if quiz_data is not None:
         question, answers = parse_quiz_data(quiz_data)
         buttons_template = set_buttons_template(
-            header="聖經問答",
+            header=QuizMessages.QUIZ_PROMPT,
             question=question,
             answers=answers,
             template_id="quiz",
             image_url=None,
-            alt_text="聖經問答",
+            alt_text=QuizMessages.QUIZ_ALT_TEXT,
         )
-        reply_message(event.reply_token, buttons_template)
+        return buttons_template
     else:
-        reply_message(
-            event.reply_token,
-            TextSendMessage(text="無法獲取問題和選項資料，請稍後再試！"),
-        )
+        return TextSendMessage(text=QuizMessages.QUIZ_ERROR)
 
 
-# 取得今日聖經問答
+# 取得今日聖經問答API
 def fetch_quiz():
     url = "http://www.taiwanbible.com/quiz/todayinnerXML.jsp"
     try:
@@ -41,7 +40,6 @@ def fetch_quiz():
 
 # 解析聖經問答資料
 def parse_quiz_data(quiz_data):
-    """Parses the quiz data to extract the question and answers."""
     try:
         # 解析 XML 資料
         root = ET.fromstring(quiz_data)
@@ -69,23 +67,12 @@ def handle_postback(event):
             answer = postback_data["answer"]
 
             if answer == "1":
-                reply_text = f"{display_name}答對啦！🎉"
+                reply_text = f"{display_name}{QuizMessages.QUIZ_CORRECT}"
             else:
-                reply_text = (
-                    f"{display_name}選錯囉～多讀聖經！\n"
-                    f"天國的道理深奧，需要你用心查考，才能明白其中的奧秘。 📖"
-                )
+                reply_text = f"{display_name}{QuizMessages.QUIZ_WRONG}"
 
-            reply_message(event.reply_token, TextSendMessage(text=reply_text))
+            return TextSendMessage(text=reply_text)
         else:
-            reply_message(
-                event.reply_token,
-                TextSendMessage(
-                    text="總有人摸我，因我覺得有能力從我身上出去。(路8:46)"
-                ),
-            )
+            return TextSendMessage(text=QuizMessages.QUIZ_WRONG_DEFAULT)
     except LineBotApiError:
-        reply_message(
-            event.reply_token,
-            TextSendMessage(text="發生錯誤，請稍後再試！"),
-        )
+        return TextSendMessage(text=QuizMessages.QUIZ_ERROR)
