@@ -46,3 +46,13 @@ pip install -r requirements.txt
 4. 到 Line Developers 設定 Webhook URL (ngrok 的 URL + /callback)
 
 5. 成功後開啟 LINE 好友測試
+
+## 另一個方案，快速啟動開發環境
+
+```sh
+python start_dev_env.py
+```
+
+- 確保有設定好 LINE_CHANNEL_ACCESS_TOKEN 環境變數
+- 確保有安裝 ngrok
+- 確保有安裝 python 套件
