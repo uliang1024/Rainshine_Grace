@@ -20,30 +20,46 @@ def callback(request):
     if request.method == "POST":
         signature = request.META["HTTP_X_LINE_SIGNATURE"]
         body = request.body.decode("utf-8")
-        try:
-            events = parser.parse(body, signature)
-        except InvalidSignatureError:
-            return HttpResponseForbidden()
-        except LineBotApiError:
+        events = parse_events(body, signature)
+        if events is None:
             return HttpResponseBadRequest()
 
         for event in events:
-            print(event)
-            if isinstance(event, MessageEvent):
-                if event.message.text == QuizMessages.QUIZ_READY_MESSAGE:
-                    reply_message(event.reply_token, get_quiz())
-                if event.message.text == DailyBibleMessages.DAILY_BIBLE_MESSAGE:
-                    reply_message(event.reply_token, get_daily_bible_flex())
-            elif isinstance(event, PostbackEvent):
-                postback_data = json.loads(event.postback.data)
-                if postback_data["template_id"] == "quiz":
-                    reply_message(event.reply_token, handle_postback(event))
-            elif isinstance(event, JoinEvent):
-                group_id = event.source.group_id
-                print(f"Joined group with ID: {group_id}")
+            handle_event(event)
         return HttpResponse()
     else:
         return HttpResponseBadRequest()
+
+def parse_events(body, signature):
+    try:
+        return parser.parse(body, signature)
+    except InvalidSignatureError:
+        return HttpResponseForbidden()
+    except LineBotApiError:
+        return None
+
+def handle_event(event):
+    if isinstance(event, MessageEvent):
+        handle_message_event(event)
+    elif isinstance(event, PostbackEvent):
+        handle_postback_event(event)
+    elif isinstance(event, JoinEvent):
+        handle_join_event(event)
+
+def handle_message_event(event):
+    if event.message.text == QuizMessages.QUIZ_READY_MESSAGE:
+        reply_message(event.reply_token, get_quiz())
+    elif event.message.text == DailyBibleMessages.DAILY_BIBLE_MESSAGE:
+        reply_message(event.reply_token, get_daily_bible_flex())
+
+def handle_postback_event(event):
+    postback_data = json.loads(event.postback.data)
+    if postback_data["template_id"] == "quiz":
+        reply_message(event.reply_token, handle_postback(event))
+
+def handle_join_event(event):
+    group_id = event.source.group_id
+    print(f"Joined group with ID: {group_id}")
 
 
 @csrf_exempt
@@ -55,7 +71,7 @@ def send_quiz_to_group(request):
         try:
             push_message(group_id, get_quiz())
             return JsonResponse({"status": "success"})
-        except Exception as e:
+        except Exception:
             return JsonResponse({"error": "Internal server error"}, status=500)
     else:
         return JsonResponse({"error": "Invalid request method"}, status=405)
@@ -70,7 +86,7 @@ def send_daily_bible_to_group(request):
         try:
             push_message(group_id, get_daily_bible_flex())
             return JsonResponse({"status": "success"})
-        except Exception as e:
+        except Exception:
             return JsonResponse({"error": "Internal server error"}, status=500)
     else:
         return JsonResponse({"error": "Invalid request method"}, status=405)

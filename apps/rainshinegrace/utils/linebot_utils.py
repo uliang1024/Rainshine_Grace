@@ -31,13 +31,16 @@ def reply_message(reply_token, messages):
 def set_buttons_template(header, question, answers, template_id, image_url, alt_text):
     actions = [
         PostbackTemplateAction(
-            label=answer[0],
+            label=answer[0][:20],  # 限制 label 的长度为最多 20 个字符
             data=json.dumps({"template_id": template_id, "answer": answer[1]}),
         )
         for answer in answers
     ]
     buttons_template = ButtonsTemplate(
-        title=header, text=question, actions=actions, thumbnail_image_url=image_url
+        title=header[:40],  # 如果 title 也有长度限制，可按需截短
+        text=question[:160],  # 如果 text 有限制，可按需截短
+        actions=actions,
+        thumbnail_image_url=image_url,
     )
     return TemplateSendMessage(alt_text=alt_text, template=buttons_template)
 
