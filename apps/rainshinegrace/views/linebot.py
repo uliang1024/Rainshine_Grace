@@ -40,6 +40,7 @@ def parse_events(body, signature):
 
 def handle_event(event):
     if isinstance(event, MessageEvent):
+        print("MESSAGE_EVENT", event)
         handle_message_event(event)
     elif isinstance(event, PostbackEvent):
         handle_postback_event(event)
