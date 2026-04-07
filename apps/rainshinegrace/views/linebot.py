@@ -87,7 +87,8 @@ def send_daily_bible_to_group(request):
         try:
             push_message(group_id, get_daily_bible_flex())
             return JsonResponse({"status": "success"})
-        except Exception:
-            return JsonResponse({"error": "Internal server error"}, status=500)
+        except Exception as e:
+            print(f"Error logic: {str(e)}") # 這會出現在 Vercel Log 裡
+            return JsonResponse({"error": str(e)}, status=500)
     else:
         return JsonResponse({"error": "Invalid request method"}, status=405)
