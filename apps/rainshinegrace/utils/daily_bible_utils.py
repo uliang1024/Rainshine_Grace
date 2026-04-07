@@ -30,7 +30,12 @@ def get_daily_bible_flex():
             contents=flex_message_json,
         )
     else:
-        return TextSendMessage(text=DailyBibleMessages.DAILY_BIBLE_ERROR)
+        import os
+        debug_msg = f"錯誤原因: {data if data else '抓取失敗'}\n"
+        debug_msg += f"當前目錄: {os.getcwd()}\n"
+        debug_msg += f"BASE_DIR 內容: {os.listdir(BASE_DIR) if os.path.exists(BASE_DIR) else '路徑不存在'}"
+        return TextSendMessage(text=debug_msg)
+        # return TextSendMessage(text=DailyBibleMessages.DAILY_BIBLE_ERROR)
 
 def construct_bible_url(chapter_verse):
     try:
