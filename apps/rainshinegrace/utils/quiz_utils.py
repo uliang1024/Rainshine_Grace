@@ -29,30 +29,63 @@ def get_quiz():
 def fetch_quiz():
     url = "http://www.taiwanbible.com/quiz/todayinnerXML.jsp"
     try:
-        response = requests.get(url)
-        response.raise_for_status()
-        content = response.text.replace("\n", "").replace("\r", "").replace(" ", "")
-        return content
-    except requests.exceptions.RequestException as e:
-        print("Error:", e)
-        return None
+        # 1. 模擬瀏覽器並處理編碼
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        response = requests.get(url, headers=headers, timeout=10)
+        response.encoding = response.apparent_encoding # 自動偵測編碼 (重要！)
+        
+        if response.status_code == 200:
+            # 2. 不要用 replace(" ", "")，這會破壞 XML 結構
+            # 只要去掉前後空白即可
+            content = response.text.strip()
+            
+            # 3. 檢查內容是否為空
+            if not content:
+                print("Error: API returned empty content")
+                return None
+                
+            print(f"DEBUG_QUIZ_XML: {content[:100]}...") # 打印前100字確認格式
+            return content
+            
+    except Exception as e:
+        print("Fetch Quiz Error:", e)
+    return None
 
 
 # 解析聖經問答資料
 def parse_quiz_data(quiz_data):
     try:
-        # 解析 XML 資料
+        # 1. 清理可能存在的雜質 (例如 XML 宣告前的空白)
+        quiz_data = quiz_data.strip()
+        
+        # 2. 解析 XML
         root = ET.fromstring(quiz_data)
-        question = root.find(".//QUESTION").text
-        answers = [
-            (ans.find("ANS").text.strip(), ans.find("CORRECT").text.strip())
-            for ans in root.findall(".//ANSWER/*")
-            if ans.find("ANS").text and ans.find("CORRECT").text
-        ]
-
+        
+        # 3. 抓取問題 (增加防呆)
+        q_element = root.find(".//QUESTION")
+        question = q_element.text.strip() if q_element is not None else "無題目"
+        
+        # 4. 抓取答案
+        answers = []
+        # 注意：檢查原本的 XML 結構，確保 find 跟 findall 的路徑正確
+        for ans in root.findall(".//ANSWER/*"):
+            ans_text_el = ans.find("ANS")
+            correct_el = ans.find("CORRECT")
+            
+            if ans_text_el is not None and correct_el is not None:
+                if ans_text_el.text: # 確保裡面有字
+                    answers.append((ans_text_el.text.strip(), correct_el.text.strip()))
+        
+        if not answers:
+            print("Error: No answers found in XML")
+            return None, []
+            
         return question, answers
+        
     except ET.ParseError as e:
-        print("Error parsing XML data:", e)
+        print("XML Parse Error:", e)
+        # 如果解析失敗，有可能是因為 XML 格式不標準，可以嘗試印出原始資料除錯
+        print(f"Faulty XML: {quiz_data}")
         return None, []
 
 
