@@ -45,19 +45,19 @@ def fetch_quiz():
 
 def parse_quiz_data(quiz_data):
     try:
-        # 1. 抓取 XML 區塊 (加上 re.I 忽略大小寫，DOTALL 處理換行)
+        # 1. 抓取 XML 區塊
         xml_match = re.search(r'<xml>.*</xml>', quiz_data, re.I | re.S)
         if not xml_match:
-            print("DEBUG: Regex failed to find <xml> tag")
+            print("DEBUG: 找不到 <xml> 標籤")
             return None, []
         
         xml_content = xml_match.group(0)
         root = ET.fromstring(xml_content)
         
-        # 2. 抓取題目 (大小寫通殺)
+        # 2. 抓取題目 (支援大小寫)
         q_node = root.find(".//question")
         if q_node is None: q_node = root.find(".//QUESTION")
-        question = q_node.text.strip() if q_node is not None else None
+        question = q_node.text.strip() if q_node is not None else "題目加載失敗"
         
         # 3. 抓取答案
         answers = []
@@ -65,7 +65,6 @@ def parse_quiz_data(quiz_data):
         if ans_container is None: ans_container = root.find(".//ANSWER")
         
         if ans_container is not None:
-            # 遍歷 ans1, ans2...
             for child in ans_container:
                 a_node = child.find("ans")
                 if a_node is None: a_node = child.find("ANS")
@@ -74,15 +73,20 @@ def parse_quiz_data(quiz_data):
                 if c_node is None: c_node = child.find("CORRECT")
                 
                 if a_node is not None and c_node is not None:
-                    # LINE 按鈕限制：label 最多 20 字，我們在此做截斷防護
+                    # 限制 label 20 字，並確保有內容
                     label = a_node.text.strip()[:20] if a_node.text else ""
                     value = c_node.text.strip() if c_node.text else "0"
                     if label:
                         answers.append((label, value))
 
+        # --- 重要安全閥：LINE ButtonsTemplate 最多只能有 4 個按鈕 ---
+        if len(answers) > 4:
+            print(f"DEBUG: 原始選項有 {len(answers)} 個，已截斷至 4 個")
+            answers = answers[:4]
+
         return question, answers
     except Exception as e:
-        print(f"DEBUG: parse_quiz_data exception: {e}")
+        print(f"DEBUG: 解析異常: {e}")
         return None, []
 
 
