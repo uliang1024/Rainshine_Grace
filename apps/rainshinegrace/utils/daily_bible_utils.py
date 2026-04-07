@@ -78,32 +78,47 @@ def load_flex_message_json(chapter_verse, verse_text, bible_url):
 def fetch_daily_bible():
     url = "https://www.taiwanbible.com/blog/dailyverse.jsp"
     try:
-        # 加上 Headers 模擬瀏覽器，避免被擋
-        headers = {'User-Agent': 'Mozilla/5.0'}
+        # 1. 模擬瀏覽器 Headers
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
         response = requests.get(url, headers=headers, timeout=10)
-        response.encoding = 'utf-8' # 強制指定
+        
+        # 2. 自動偵測編碼並處理
+        response.encoding = response.apparent_encoding 
         
         if response.status_code == 200:
-            content = response.text.strip()
-            if not content:
+            # 3. 清理 HTML 標籤 (萬一回傳包含 <html><body> 等)
+            raw_text = re.sub(r'<[^>]+>', '', response.text).strip()
+            # 將多個空格/換行統一縮減為單個空格
+            clean_content = ' '.join(raw_text.split())
+            
+            print(f"CLEAN_CONTENT: {clean_content}") 
+
+            if not clean_content:
                 return None
 
-            # 針對 "馬太福音 12:36 我又告訴你們..." 的格式
-            # 先嘗試用第一個空格切開「卷名」，再找剩下的
-            parts = content.split(" ", 2)
-            if len(parts) >= 3:
-                return {
-                    "chapter_verse": f"{parts[0]} {parts[1]}",
-                    "verse_text": parts[2]
-                }
+            # 4. 針對 "馬太福音 12:36 我又告訴你們..." 進行解析
+            # 策略：先用正則表達式精準定位 "書卷名 數字:數字"
+            # 格式：(任何字 + 空格 + 數字:數字) + (剩下的內容)
+            match = re.search(r"(.+?\s\d+:\d+)\s+(.+)", clean_content)
             
-            # 如果 split 失敗，用 Regex 當保險
-            match = re.search(r"(.+?\s\d+:\d+)\s+(.+)", content)
             if match:
                 return {
                     "chapter_verse": match.group(1).strip(),
                     "verse_text": match.group(2).strip()
                 }
+            
+            # 5. 備用方案：如果 Regex 失敗，嘗試用空格切分
+            parts = clean_content.split(" ")
+            if len(parts) >= 3:
+                # 假設格式是 [書卷名, 章節, 經文...]
+                return {
+                    "chapter_verse": f"{parts[0]} {parts[1]}",
+                    "verse_text": " ".join(parts[2:])
+                }
+                
     except Exception as e:
-        print(f"Fetch Error: {e}")
+        print(f"Fetch Error: {str(e)}")
+    
     return None
