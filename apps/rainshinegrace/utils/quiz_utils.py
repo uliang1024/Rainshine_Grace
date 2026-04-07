@@ -55,37 +55,40 @@ def fetch_quiz():
 # 解析聖經問答資料
 def parse_quiz_data(quiz_data):
     try:
-        # 1. 清理可能存在的雜質 (例如 XML 宣告前的空白)
-        quiz_data = quiz_data.strip()
+        # 1. 強力清洗：只抓取 <xml> ... </xml> 之間的內容，過濾掉 html/body
+        xml_match = re.search(r'(<xml>.*</xml>)', quiz_data, re.DOTALL)
+        if not xml_match:
+            print("找不到 XML 結構")
+            return None, []
+        
+        xml_content = xml_match.group(1)
         
         # 2. 解析 XML
-        root = ET.fromstring(quiz_data)
+        root = ET.fromstring(xml_content)
         
-        # 3. 抓取問題 (增加防呆)
-        q_element = root.find(".//QUESTION")
-        question = q_element.text.strip() if q_element is not None else "無題目"
+        # 3. 抓取問題 (現在是小寫 <question>)
+        q_element = root.find(".//question")
+        question = q_element.text.strip() if q_element is not None else "無題目資料"
         
-        # 4. 抓取答案
+        # 4. 抓取答案 (現在是 <ans1>, <ans2> ... 裡面的 <ans> 和 <correct>)
         answers = []
-        # 注意：檢查原本的 XML 結構，確保 find 跟 findall 的路徑正確
-        for ans in root.findall(".//ANSWER/*"):
-            ans_text_el = ans.find("ANS")
-            correct_el = ans.find("CORRECT")
-            
-            if ans_text_el is not None and correct_el is not None:
-                if ans_text_el.text: # 確保裡面有字
-                    answers.append((ans_text_el.text.strip(), correct_el.text.strip()))
-        
-        if not answers:
-            print("Error: No answers found in XML")
-            return None, []
-            
+        # 遍歷 <answer> 下的所有子標籤 (ans1, ans2, ans3, ans4)
+        answer_container = root.find(".//answer")
+        if answer_container is not None:
+            for ans_item in answer_container:
+                ans_text_el = ans_item.find("ans")
+                correct_el = ans_item.find("correct")
+                
+                if ans_text_el is not None and correct_el is not None:
+                    answers.append((
+                        ans_text_el.text.strip(), 
+                        correct_el.text.strip()
+                    ))
+
         return question, answers
         
-    except ET.ParseError as e:
-        print("XML Parse Error:", e)
-        # 如果解析失敗，有可能是因為 XML 格式不標準，可以嘗試印出原始資料除錯
-        print(f"Faulty XML: {quiz_data}")
+    except Exception as e:
+        print("解析聖經問答失敗:", e)
         return None, []
 
 
