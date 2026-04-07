@@ -85,10 +85,16 @@ def send_daily_bible_to_group(request):
         if not group_id:
             return JsonResponse({"error": "Group ID is required"}, status=400)
         try:
-            push_message(group_id, get_daily_bible_flex())
+            content = get_daily_bible_flex()
+            # 這裡加個 print，去 Vercel Logs 看內容有沒有成功產生
+            print(f"Attempting to push to {group_id}") 
+            push_message(group_id, content)
             return JsonResponse({"status": "success"})
         except Exception as e:
-            print(f"Error logic: {str(e)}") # 這會出現在 Vercel Log 裡
-            return JsonResponse({"error": str(e)}, status=500)
+            # 關鍵：把真正的錯誤訊息印出來並回傳
+            import traceback
+            error_details = traceback.format_exc()
+            print(error_details) 
+            return JsonResponse({"error": str(e), "traceback": error_details}, status=500)
     else:
         return JsonResponse({"error": "Invalid request method"}, status=405)
