@@ -11,30 +11,28 @@ def get_quiz():
     quiz_data = fetch_quiz()
     if quiz_data:
         question, answers = parse_quiz_data(quiz_data)
-        # --- DEBUG 點 1 ---
-        print(f"DEBUG: question={question}, answers_count={len(answers)}")
         
+        # 確保有題目且有答案 (1~4個)
         if question and answers:
             try:
-                # 確保你的 set_buttons_template 能處理 [(text, correct), ...] 這種格式
+                # 調用封裝好的模板設定
                 return set_buttons_template(
                     header=QuizMessages.QUIZ_PROMPT,
                     question=question,
                     answers=answers,
                     template_id="quiz",
-                    image_url=None,
+                    image_url=None, # 這裡設為 None，內部會處理標題保護
                     alt_text=QuizMessages.QUIZ_ALT_TEXT,
                 )
             except Exception as e:
                 print(f"DEBUG: set_buttons_template failed: {e}")
     
-    # 如果走到這代表前面有東西回傳了 None
     return TextSendMessage(text=QuizMessages.QUIZ_ERROR)
 
 def fetch_quiz():
     url = "http://www.taiwanbible.com/quiz/todayinnerXML.jsp"
     try:
-        headers = {'User-Agent': 'Mozilla/5.0'}
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
         response = requests.get(url, headers=headers, timeout=10)
         response.encoding = response.apparent_encoding 
         if response.status_code == 200:
@@ -45,26 +43,26 @@ def fetch_quiz():
 
 def parse_quiz_data(quiz_data):
     try:
-        # 1. 抓取 XML 區塊
+        # 1. 強力過濾：只提取 <xml> 到 </xml>
         xml_match = re.search(r'<xml>.*</xml>', quiz_data, re.I | re.S)
         if not xml_match:
-            print("DEBUG: 找不到 <xml> 標籤")
             return None, []
         
         xml_content = xml_match.group(0)
         root = ET.fromstring(xml_content)
         
-        # 2. 抓取題目 (支援大小寫)
+        # 2. 抓取題目 (支援小寫 question)
         q_node = root.find(".//question")
         if q_node is None: q_node = root.find(".//QUESTION")
-        question = q_node.text.strip() if q_node is not None else "題目加載失敗"
+        question = q_node.text.strip() if q_node is not None else "題目加載中"
         
-        # 3. 抓取答案
+        # 3. 抓取答案清單
         answers = []
         ans_container = root.find(".//answer")
         if ans_container is None: ans_container = root.find(".//ANSWER")
         
         if ans_container is not None:
+            # 遍歷 ans1, ans2... 
             for child in ans_container:
                 a_node = child.find("ans")
                 if a_node is None: a_node = child.find("ANS")
@@ -73,40 +71,38 @@ def parse_quiz_data(quiz_data):
                 if c_node is None: c_node = child.find("CORRECT")
                 
                 if a_node is not None and c_node is not None:
-                    # 限制 label 20 字，並確保有內容
-                    label = a_node.text.strip()[:20] if a_node.text else ""
-                    value = c_node.text.strip() if c_node.text else "0"
-                    if label:
-                        answers.append((label, value))
+                    txt = a_node.text.strip() if a_node.text else ""
+                    val = c_node.text.strip() if c_node.text else "0"
+                    if txt:
+                        # 限制 label 20 字 (LINE 硬性規定)
+                        answers.append((txt[:20], val))
 
-        # --- 重要安全閥：LINE ButtonsTemplate 最多只能有 4 個按鈕 ---
+        # 4. LINE 安全閥：按鈕數量必須在 1~4 之間
+        if not answers:
+            return None, []
         if len(answers) > 4:
-            print(f"DEBUG: 原始選項有 {len(answers)} 個，已截斷至 4 個")
             answers = answers[:4]
 
         return question, answers
     except Exception as e:
-        print(f"DEBUG: 解析異常: {e}")
+        print(f"DEBUG: parse_quiz_data exception: {e}")
         return None, []
 
-
-# 處理回傳事件
 def handle_postback(event):
     user_id = event.source.user_id
     try:
         profile = get_user_profile(user_id)
-        if profile:
-            display_name = profile.display_name
-            postback_data = json.loads(event.postback.data)
-            answer = postback_data["answer"]
+        display_name = profile.display_name if profile else "用戶"
+        
+        postback_data = json.loads(event.postback.data)
+        answer = postback_data.get("answer", "0")
 
-            if answer == "1":
-                reply_text = f"{display_name}{QuizMessages.QUIZ_CORRECT}"
-            else:
-                reply_text = f"{display_name}{QuizMessages.QUIZ_WRONG}"
-
-            return TextSendMessage(text=reply_text)
+        if answer == "1":
+            reply_text = f"{display_name}{QuizMessages.QUIZ_CORRECT}"
         else:
-            return TextSendMessage(text=QuizMessages.QUIZ_WRONG_DEFAULT)
-    except LineBotApiError:
+            reply_text = f"{display_name}{QuizMessages.QUIZ_WRONG}"
+
+        return TextSendMessage(text=reply_text)
+    except Exception as e:
+        print(f"DEBUG: handle_postback error: {e}")
         return TextSendMessage(text=QuizMessages.QUIZ_ERROR)
